@@ -2,3 +2,50 @@ html
 {
     font-family: 'Spartan', sans-serif;
 }
+
+body
+{
+    width: auto;
+    margin: 0 0;
+    padding: 36px 36px;
+}
+
+.background
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    background-image: url(../images/site-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    width: fit-content;
+}
+
+header img{
+    max-width: 250px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #f2acb9;
+    position: sticky;
+    top: 0;
+    border-radius: 100px;
+}
