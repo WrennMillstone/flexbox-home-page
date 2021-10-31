@@ -1,3 +1,12 @@
+/*
+colors:
+dark pink:   #F2ACB9
+med pink:    #F2BDC7
+light pink:  #F2CED5
+white:       #F2F2F2
+grey:        #595959
+*/
+
 html
 {
     font-family: 'Spartan', sans-serif;
@@ -59,17 +68,24 @@ nav{
 /*featured section*/
 
 main{
-    margin: 36px 0;
+    margin: 50px auto;
+    width: 85%;
 }
 
 .featured{
     display: flex;
+    align-items: center;
 }
 
 .featured img{
     max-width: 25%;
+    border-radius: 50%;
 }
 
 .description{
     margin: 26px 26px;
+    padding: 0 50px;
+    height: 50%;
+    background-color: #f2acb9;
+    border-radius: 100px;
 }
