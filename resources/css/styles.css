@@ -75,17 +75,23 @@ main{
 .featured{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .featured img{
-    max-width: 25%;
-    border-radius: 50%;
+    max-width: 30%;
+    border-radius: 25%;
 }
 
 .description{
-    margin: 26px 26px;
+    margin-left: 26px;
     padding: 0 50px;
     height: 50%;
+    max-width: 500px;
     background-color: #f2acb9;
     border-radius: 100px;
+}
+
+.right .description{
+    margin-right: 26px;
 }
